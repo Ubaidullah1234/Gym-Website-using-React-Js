@@ -1,0 +1,104 @@
+.footer-container {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav ul li a:hover {
+    color: #1ff507 /* Highlight color on hover */
+  }
+  
+  .footer-social a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #1ff507; /* Highlight color on hover */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .footer-logo h2 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #fff;
+  }
+  .footer-container {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* Adjust the spacing between the words */
+     font-size: 20px;
+  }
+
+  .footer-logo h3 {
+    margin-right: 5px;
+    font-size: 45px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #1ff507;
+    margin-bottom: 15px;
+  }
+
+  .footer-logo h4 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #fff;
+  }

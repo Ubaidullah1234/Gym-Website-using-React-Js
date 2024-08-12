@@ -1,0 +1,76 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 390px;
+}
+
+.contact-col{
+    flex-basis: 50%;
+    color: #676767;
+
+}
+
+.contact-col h3{
+    color: #000F38;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+    margin-bottom: 10px;
+}
+
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-col ul li img{
+    width: 35px;
+    margin-right: 10px;
+
+}
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom:15px ;
+    margin-top: 5px;
+    resize: none;
+
+
+}
+
+.btn2{
+    background-color: black; /* Green color for the button */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Larger padding for better touch */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer;
+    border-radius: 20px; /* Slightly larger border radius */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for color and scale */
+}
+
+.btn2:hover {
+    background-color: black; /* Darker green for hover effect */
+    transform: translateY(-3px); /* Lift the button slightly on hover */
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}

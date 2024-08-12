@@ -1,0 +1,87 @@
+nav{
+  width: 100%;
+ 
+  color: #fff;
+  padding: 4px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  
+
+
+
+}
+
+.bronx {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  
+
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 10px;
+ 
+
+}
+
+.inline {
+  display: inline;
+ 
+
+}
+
+.inline1 {
+  display: inline;
+ 
+  font-size: 47px;
+  color: #1ff507;
+ 
+}
+
+.inline2 {
+  display: inline;
+  margin-left: 10px;
+  font-size: 30px;
+  color: white;
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  
+}
+
+nav ul li a {
+  color: white; /* Initial link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  
+}
+
+nav ul li a:hover {
+  color: #1ff507; /* Color changes to blue on hover */
+}
+.dark-nav{
+background: black;
+transition: 0.5;
+}
+
+.cart-icon {
+  margin-left: 30px;
+}
+
+.cart-icon img {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+}
+

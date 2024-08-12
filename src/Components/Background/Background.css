@@ -1,0 +1,74 @@
+
+
+.background {
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/Backgroundimage.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image in the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height of the div to 100% of the viewport height */
+    width: 100%; /* Ensures the div takes up the full width of its container */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-text{
+   
+    text-align: center;
+    max-width: 800px;
+    margin-right: 800px;
+
+  }
+
+  .build{
+    color: #1ff507;
+    margin-right: 1px;
+  
+    
+  }
+  
+  
+  .background-text h1.transform {
+    color: white; /* Lime green color */
+    font-size: 2.9em; /* Adjust font size for "TRANSFORM YOUR LIFE" */
+    margin-left: 239px;
+    color: black;
+  }
+  
+  .simple {
+    color: white; /* Example color for additional text */
+    font-size: 1em; /* Adjust font size for additional text */
+     /* Add space between the lines if needed */
+     margin-left: 122px;
+  }
+  .simple1 {
+    color: white; /* Example color for additional text */
+    font-size: 1em; /* Adjust font size for additional text */
+     /* Add space between the lines if needed */
+     margin-left: 132px;
+  }
+  .btn1{
+    background: white;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  margin-right: 112px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+  .btn1:hover {
+    background-color: grey; /* Darker blue on hover */
+  }
+
+  .btn1 img{
+    width: 20px;
+    margin-left: 10px;
+  }

@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+    color: #212EA0; /* Deep blue color */
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 70px 0px 30px;
+    text-decoration: underline; /* Adds a basic underline */
+    text-decoration-thickness: 2px; /* Makes the underline thicker */
+    text-decoration-color: #212EA0; /* Matches the underline color with the text */
+    text-underline-offset: 4px; /* Adds space between the text and the underline */
+  }
+  

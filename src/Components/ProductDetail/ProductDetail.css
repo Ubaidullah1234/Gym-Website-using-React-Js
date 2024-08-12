@@ -1,0 +1,72 @@
+/* Entire page background */
+
+
+/* Container for the product details */
+.product-detail {
+    text-align: center;
+    padding: 30px;
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 80px auto 0; /* Adds margin at the top to create space from the Navbar, centered horizontally */
+    background: #fff; /* Set background color to white */
+    border-radius: 10px; /* Rounds corners of the entire detail section */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    margin-bottom: 100px;
+}
+
+/* Product image styling */
+.product-detail img {
+    width: 100%; /* Make image responsive */
+    max-width: 500px; /* Set a max width for larger screens */
+    height: auto;
+    border-radius: 12px; /* Slightly larger border radius */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow for emphasis */
+    margin-bottom: 20px; /* Space below the image */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+/* Image hover effect */
+.product-detail img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Product title styling */
+.product-detail h1 {
+    font-size: 28px; /* Larger font size for the title */
+    color: #222; /* Slightly darker color for better contrast */
+    margin-bottom: 15px; /* Space below the title */
+    font-weight: 600; /* Slightly bolder font weight */
+}
+
+/* Product description styling */
+.product-detail p {
+    font-size: 20px; /* Slightly larger font size for readability */
+    color: #555; /* Darker color for text */
+    line-height: 1.6; /* Improved line spacing */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+/* Price styling */
+.product-detail .price {
+    font-size: 24px; /* Larger font size for price */
+    font-weight: 700; /* Bolder font weight */
+    color: #e74c3c; /* Use a more attention-grabbing color */
+    margin-bottom: 20px; /* Space below price */
+}
+
+/* Add to Cart button styling */
+.product-detail .add-to-cart {
+    background-color: #27ae60; /* Green color for the button */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Larger padding for better touch */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer;
+    border-radius: 8px; /* Slightly larger border radius */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for color and scale */
+}
+
+/* Add to Cart button hover effect */
+.product-detail .add-to-cart:hover {
+    background-color: #219150; /* Darker green for hover effect */
+    transform: translateY(-3px); /* Lift the button slightly on hover */
+}

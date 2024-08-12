@@ -1,0 +1,137 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+    margin-top: 60px;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.about-left img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.about-left img:hover {
+    transform: scale(1.05);
+}
+
+.gym-facility {
+    margin-top: 20px; /* Add margin to create space between images */
+}
+
+.about-right {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-right h3 {
+    font-size: 28px;
+    color: #1ff507;
+    margin-bottom: 10px;
+}
+
+.about-right h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-right p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: black;
+    transform: translateY(-3px);
+}
+
+.facilities {
+    margin-top: 30px;
+}
+
+.facilities h3 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.facilities ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.facilities ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.facilities ul li::before {
+    content: '✔';
+    color: #1ff507;
+    position: absolute;
+    left: 0;
+}
+
+.testimonials {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h3 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p:first-child {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial p:last-child {
+    font-size: 14px;
+    text-align: right;
+    color: #999;
+}

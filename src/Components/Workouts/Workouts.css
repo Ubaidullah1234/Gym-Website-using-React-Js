@@ -1,0 +1,57 @@
+.workouts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .exercise-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+  
+  .exercise-image {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .exercise-description {
+    max-width: 60%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .workouts-container h1 {
+    text-align: center;
+    color: #212EA0; /* Deep blue color */
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+   
+    text-decoration: underline; /* Adds a basic underline */
+    text-decoration-thickness: 2px; /* Makes the underline thicker */
+    text-decoration-color: #212EA0; /* Matches the underline color with the text */
+    text-underline-offset: 4px; /* Adds space between the text and the underline */
+  }
+  
+  .exercise-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
